@@ -1,0 +1,21 @@
+
+body{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 139, 232, 0.5);
+    
+}
+
+.navbar .nav-item .nav-link{
+    color: white;
+    white-space: nowrap;
+}
+
+
+.main-header .container{
+    padding-top: 200px;
+}
