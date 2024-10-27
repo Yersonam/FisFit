@@ -1,21 +1,111 @@
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
 
 body{
-    background: url(../img/background.jpg);
-    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+.nav__img{
+    width: 70px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /*El wdith se tiene que centrar veticalmente y con un margin auto hacia los lados*/
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%; /*Sirve para poner la imagen de fondo*/
+    height: 100vh;
     min-height: 600px;
+    max-height: 800px;
     position: relative;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(1, 139, 232, 0.5);
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../img/background.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 100%, 80% 98%, 46% 96%, 0 91%, 0% 30%);
+    z-index: -1;
     
 }
-
-.navbar .nav-item .nav-link{
-    color: white;
-    white-space: nowrap;
+/* Nav */
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
+.nav__link{
+    display: grid;
+    margin-left: auto;
+    padding: 0;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+.nav__items{
+    list-style: none;
+}
+.btn-blue{
+    background-color: #0800ff;
+    padding: 13px 20px;
+    /* border-radius: 30px; */
+}
+.btn-blue:hover{
+    background-color: #018be8;
+}
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+}
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav__bars{
+    display: block;
+    width: 30px;
+}
 
-.main-header .container{
-    padding-top: 200px;
+.nav__close{
+    display: var(--show, none);
+}
+
+/* HERO CONTAINER */
+
+.hero__title{
+    width: 50%;
+    margin-left: 30px;
+}
+.cta{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: #bf0811;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 30px;
+}
+.cta:hover{
+    background-color: #711127;
+}
+/* Main */
+main{
+    background-color: #018be8;
 }
