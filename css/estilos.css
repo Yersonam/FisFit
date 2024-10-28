@@ -6,6 +6,10 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+header{
+    background-color: #018be8;
+    z-index: 1;
+}
 .nav__img{
     width: 70px;
 }
@@ -87,7 +91,9 @@ body{
 }
 
 /* HERO CONTAINER */
-
+.hero__container{
+    margin-top: 10rem;
+}
 .hero__title{
     width: 50%;
     margin-left: 30px;
@@ -108,4 +114,152 @@ body{
 /* Main */
 main{
     background-color: #018be8;
+    clip-path: polygon(20% 0%, 100% 0, 100% 89%, 90% 92%, 63% 97%, 27% 99%, 0 100%, 0 0);
+}
+
+.container{
+    padding-top: 0;
+}
+
+.container .title3{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.container .imgText{
+    display: flex;
+    column-gap: 8rem;
+}
+.container .image1{
+    width: 500px;
+}
+
+.textParagraph .text{
+    color: white;
+    font-weight: 500;
+    line-height: 4rem;
+    font-size: 3rem;
+}
+.textParagraph .paragraph{
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+.textParagraph .boton{
+    background-color: #bf0811;
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.textParagraph .boton:hover{
+    background-color: #711127;
+    transition: 3;
+}
+.container .imgText2{
+    display: flex;
+    column-gap: 8rem;
+    margin-top: 2rem;
+}
+.container .image2{
+    width: 500px;
+}
+.textParagraph2{
+    width: 500px;
+}
+.textParagraph2 .text2{
+    color: white;
+    font-weight: 500;
+    line-height: 4rem;
+    font-size: 3rem;
+}
+.textParagraph2 .paragraph2{
+    margin-top: 3rem;
+    line-height: 2rem;
+}
+.textParagraph2 .boton2{
+    background-color: #bf0811;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+
+}
+.textParagraph2 .boton2:hover{
+    background-color: #711127;
+    transition: 3;
+}
+/* Testimonios */
+.testimonials .title4{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.testimonials .testimonio{
+    font-weight: 500;
+    margin-top: 4rem;
+    text-align: center;
+}
+.testimonials .users{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-color: #018be8;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.foot__Caja1--paragraph{
+    margin-bottom: 2rem;
+}
+.foot__Caja1--title5{
+    color: #000;
+}
+.foot__Caja2{
+    display: flex;
+    flex-direction: column;
+}
+.foot__Caja2__listas{
+    margin-bottom: 1rem;
+    padding-left: 0;
+    display: inline-block;
+}
+.foot__Caja2__listas__item{
+    list-style: none;    
+}
+.foot__Caja2__listas__item--link{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2rem;
+    cursor: pointer;
+}
+.foot__Caja2__redes{
+    display: flex;
+    column-gap: 2rem;
+}
+.foot__Caja2__redes--Instagram{
+    color: #000;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.foot__Caja2__redes--Ex{
+    color: #000;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.foot__Caja2__redes--Pinterest{
+    color: #000;
+    font-size: 1.6rem;
+    text-decoration: none;
 }
