@@ -12,106 +12,45 @@
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav container">
-      <a href="/" class="nav__logo">
-        <img src="./img/PNG/logo fisfit_Mesa de trabajo 1.png" alt="" class="nav__img">
-      </a>
-      <ul class="nav__link nav__link--menu">
-          <li class="nav__items">
-            <a href="#" class="nav__links">Nosotros</a>
-          </li>
-          <li class="nav__items">
-            <a href="#" class="nav__links">Fisioterapia</a>
-          </li>
-          <li class="nav__items">
-            <a href="#" class="nav__links">Fitness</a>
-          </li>
-          <li class="nav__items">
-            <a href="#" class="nav__links">Contacto</a>
-          </li>
-          <li class="nav__items">
-            <a href="#" class="nav__links">Blog</a>
-          </li>
-          <li class="nav__items">
-            <a href="#" class="nav__links btn-blue">Eventos</a>
-          </li>
-          <i class="fa-solid fa-circle-xmark nav__close"></i>
-      </ul>
-
-      <div class="nav__menu">
-          <i class="fa-solid fa-bars nav__bars"></i>
-      </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="/img/PNG/logo fisfit_Mesa de trabajo 1.png" alt="Logo" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Nosotros/Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contacto/Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Blog/Blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item ms-5 btn btn-primary">
+                    <a class="nav-link exclusive" href="#">Eventos</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+    
+    <!-- Header -->
+    <header class="main-header">
+            <div class="container m">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center ms-5 ">
+                        <h1 class="text-white">Compremetidos con tu bienestar y recuperació</h1>
+                        <a href="#" class="btn btn-danger btn-lg text-white">Chatea conmigo</a>
 
-    <section class="hero__container container">
-      <h1 class="hero__title">
-        Recupera tu bienestar con FisFit: tu camino hacia una vida sin dolor y llena de movimiento.
-      </h1>
-      <a href="#" class="cta">Comienza Ahora</a>
-    </section>
-  </header>
-
-  <main>
-    <section class="container nosotrosy">
-      <h1 class="title3">Nosotros</h1>
-      <div class="imgText">
-        <img class="image1" src="./img/image1.avif" alt="img1">
-        <div class="textParagraph">
-          <h1 class="text">Recupera tu salud, redescubre tu vitalidad</h1>
-          <p class="paragraph">En FisFit trabajamos contigo para restaurar el equilibrio de tu cuerpo, devolviendo la energía y bienestar que mereces. Es hora de priorizarte.</p>
-          <a class="boton" href="">Más información</a>
-        </div>
-      </div>
-
-      <div class="imgText2">
-        
-        <div class="textParagraph2">
-          <h1 class="text2">El bienestar comienza con un primer paso.</h1>
-          <p class="paragraph2">Cada día es una nueva oportunidad para sentirte mejor. Con nosotros, ese camino hacia el bienestar es más accesible y personalizado.</p>
-          <a class="boton2" href="">Más información</a>
-        </div>
-        <img class="image2" src="./img/image1.avif" alt="img1">
-      </div>
-    </section>
-  </main>
-  <section class="testimonials container">
-    <h1 class="title4">Testimonios</h1>
-    <h1 class="testimonio">"Gracias a FisFit, pude recuperar mi movilidad y sentirme mucho mejor. El equipo es increíblemente atento y profesional, me acompañaron en cada paso del proceso. ¡Recomiendo totalmente su servicio!"</h1>
-    <p class="users">-Helida Huaman</p>
-  </section>
-  <footer>
-    <div class="foot container">
-      <div class="foot__Caja1">
-        <p class="foot__Caja1--paragraph">FisFit, propiedad de Franco Lizárraga Bautista</p>
-        <h1 class="foot__Caja1--title5">Este es tu lugar. <i class="fa-regular fa-heart"></i> </h1>
-      </div>
-      <div class="foot__Caja2">
-        <ul class="foot__Caja2__listas">
-          <li class="foot__Caja2__listas__item">
-            <a href="#" class="foot__Caja2__listas__item--link">Tú</a>
-          </li>
-          <li class="foot__Caja2__listas__item">
-            <a href="#" class="foot__Caja2__listas__item--link">Acerca de</a>
-          </li>
-          <li class="foot__Caja2__listas__item">
-            <a href="#" class="foot__Caja2__listas__item--link">Empezar</a>
-          </li>
-        </ul>
-        <div class="foot__Caja2__redes">
-          <a href="#" class="foot__Caja2__redes--Instagram">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="#" class="foot__Caja2__redes--Ex">
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-          <a href="#" class="foot__Caja2__redes--Pinterest">
-            <i class="fa-brands fa-pinterest"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>  
-  <script src="js/app.js"></script>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
