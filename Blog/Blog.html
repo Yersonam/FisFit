@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisfit - Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Blog.css">
+</head>
+<body>
+
+    <!-- Encabezado principal con Navbar -->
+    <header class=" text-white text-center py-5 header-img" style="background-image: url('../img/bienestar.jpg'); background-size:cover;  background-position: center; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);"">
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../img/PNG/logo fisfit_Mesa de trabajo 1.png" alt="Logo" height="110" width="150"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../Nosotros/Nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../Contacto/Contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="btn btn-primary mt-1 ms-4">Eventos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mb-8 pt-5 caja-texto">
+            <h1 class="display-3 ">
+                Cultivar y motivar: un viaje hacia el bienestar físico
+                 y emocional
+            </h1>
+            <p >En Fisfit, creemos que el bienestaar no solo se trata  de 
+               recuperación fisica, sino también de motivación para mantener
+               una vida equilibrada y saludabole. A traves de nuestra experiencia
+               y dedicacion, te ayudamos a cultivar habitos que fortalecen tu cuerpo
+               y motivan tu mente.
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección de introducción -->
+    <section class="container my-4 contendor-sub">
+        <div class="row align-items-center">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/recuperacion-activa.jpg" alt="Recuperación Activa">
+                </div>
+                <div class="content">
+                    <p>11/3/19</p>
+                    <h2>Recuperación Activa</h2>
+                    <p>Descubre cómo la fisioterapia personalizada es la clave para retomar el control de tu cuerpo y mejorar tu calidad de vida. En FitFis, sabemos que cada persona es única...</p>
+                    <!-- Botón para abrir el modal -->
+                    <button class="btn btn-primary read-more" data-bs-toggle="modal" data-bs-target="#modalRecuperacionActiva">
+                        Leer más
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="../img/relacion-toxica.jpg" alt="Relaciones Tóxicas">
+                </div>
+                <div class="content">
+                    <p>11/3/19</p>
+                    <h2>Relaciones Tóxicas</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
+                    <!-- Botón para abrir el modal -->
+                    <button class="btn btn-primary read-more" data-bs-toggle="modal" data-bs-target="#modalRelacionesToxicas">
+                        Leer más
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal 1: Recuperación Activa -->
+    <div class="modal fade" id="modalRecuperacionActiva" tabindex="-1" aria-labelledby="modalRecuperacionActivaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalRecuperacionActivaLabel">Recuperación Activa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>La fisioterapia personalizada es clave para retomar el control de tu cuerpo y mejorar tu calidad de vida. En FitFis, cada plan es único, diseñado para tus necesidades y objetivos individuales.</p>
+                    <p>Con un enfoque en técnicas avanzadas y personalizadas, buscamos restaurar tu movilidad, disminuir el dolor y fortalecer tu bienestar físico y emocional.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2: Relaciones Tóxicas -->
+    <div class="modal fade" id="modalRelacionesToxicas" tabindex="-1" aria-labelledby="modalRelacionesToxicasLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalRelacionesToxicasLabel">Relaciones Tóxicas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>Comprender las señales y aprender a abordar estas relaciones es crucial para proteger tu bienestar emocional y físico.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- Footer con efecto de olas -->
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <h1 class="display-6 fw-bold">Comienza una nueva realcion contigo mismo ahora.</h1>
+        <a href="#" class="btn btn-dark     mt-3">Comunicate con Nosotros</a>
+        <p>&copy;2024 FisFit | Derechos reservados</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const navbar = document.querySelector(".navbar");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

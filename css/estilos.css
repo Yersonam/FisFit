@@ -19,3 +19,11 @@ body{
 .main-header .container{
     padding-top: 200px;
 }
+.navbar-brand img{
+    width: 15%;
+    position: relative;
+
+}
+.navbar{
+    height: 150px;
+}
